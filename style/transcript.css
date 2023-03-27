@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.transcript {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.paragraphe-transcript {
+    text-align: justify;
+    color: black;
+}
+
+.image {
+    width: 500px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-caption {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.summary {
+    font-family: roboto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary div {
+    max-width: 700px;
+    margin: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sum{
+    display: flex;
+    flex-direction: row;
+}
